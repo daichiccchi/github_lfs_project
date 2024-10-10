@@ -1,16 +1,3 @@
-import * as React from "react";
-
-import { User } from "../interfaces";
-
-type ListDetailProps = {
-  item: User;
-};
-
-const ListDetail = ({ item: user }: ListDetailProps) => (
-  <div>
-    <h1>Detail for {user.name}</h1>
-    <p>ID: {user.id}</p>
-  </div>
-);
-
-export default ListDetail;
+version https://git-lfs.github.com/spec/v1
+oid sha256:48523dbddfda8a26f94162ad00366157af4e407d7fe4654eba60634ee6b81425
+size 282

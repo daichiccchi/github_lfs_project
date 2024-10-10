@@ -1,12 +1,3 @@
-FROM node:18.17-alpine
-
-RUN build_deps="curl" && \
-   apt-get update && \
-   DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends ${build_deps} ca-certificates && \
-   curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash && \
-   DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends git-lfs && \
-   git lfs install && \
-   DEBIAN_FRONTEND=noninteractive apt-get purge -y --auto-remove ${build_deps} && \
-   rm -r /var/lib/apt/lists/*
-
-WORKDIR /app
+version https://git-lfs.github.com/spec/v1
+oid sha256:c99d96d88ec0541f597bd8ac46d00ae53c48c0101849918ed9a528998ed0096f
+size 524

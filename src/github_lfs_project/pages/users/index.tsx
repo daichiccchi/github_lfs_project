@@ -1,35 +1,3 @@
-import { GetStaticProps } from "next";
-import Link from "next/link";
-
-import { User } from "../../interfaces";
-import { sampleUserData } from "../../utils/sample-data";
-import Layout from "../../components/Layout";
-import List from "../../components/List";
-
-type Props = {
-  items: User[];
-};
-
-const WithStaticProps = ({ items }: Props) => (
-  <Layout title="Users List | Next.js + TypeScript Example">
-    <h1>Users List</h1>
-    <p>
-      Example fetching data from inside <code>getStaticProps()</code>.
-    </p>
-    <p>You are currently on: /users</p>
-    <List items={items} />
-    <p>
-      <Link href="/">Go home</Link>
-    </p>
-  </Layout>
-);
-
-export const getStaticProps: GetStaticProps = async () => {
-  // Example for including static props in a Next.js function component page.
-  // Don't forget to include the respective types for any props passed into
-  // the component.
-  const items: User[] = sampleUserData;
-  return { props: { items } };
-};
-
-export default WithStaticProps;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e9e963e20fe30a9d20c55d9d7d6f0d264887c06bd941b30fbe0a1ae5933b553
+size 992

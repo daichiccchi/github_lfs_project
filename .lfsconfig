@@ -1,0 +1,6 @@
+[lfs]
+	url = lfs-rclone://s3://git-lfs-test-bucket
+
+[customtransfer "rclone"]
+	path = git-lfs-agent-rclone
+	args = s3://git-lfs-test-bucket/

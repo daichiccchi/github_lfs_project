@@ -1,14 +1,3 @@
-import Link from "next/link";
-import Layout from "../components/Layout";
-
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">About</Link>
-    </p>
-    
-  </Layout>
-);
-
-export default IndexPage;
+version https://git-lfs.github.com/spec/v1
+oid sha256:45e1d8d9fc0bd51d678b69813b76565ba4fb6208d335c4d55a4e8867382017d3
+size 290

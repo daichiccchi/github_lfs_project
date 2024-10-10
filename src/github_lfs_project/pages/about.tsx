@@ -1,14 +1,3 @@
-import Link from "next/link";
-import Layout from "../components/Layout";
-
-const AboutPage = () => (
-  <Layout title="About | Next.js + TypeScript Example">
-    <h1>About</h1>
-    <p>This is the about page</p>
-    <p>
-      <Link href="/">Go home</Link>
-    </p>
-  </Layout>
-);
-
-export default AboutPage;
+version https://git-lfs.github.com/spec/v1
+oid sha256:89b7de75616b5cd7bd09da40e90490bea0336ec19ca22835e2db13b3fc4d4a46
+size 304

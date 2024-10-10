@@ -1,10 +1,3 @@
-// You can include shared interfaces/types in a separate file
-// and then use them in any component by importing them. For
-// example, to import the interface below do:
-//
-// import { User } from 'path/to/interfaces';
-
-export type User = {
-  id: number;
-  name: string;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:313239f80ffc1058a83d3abf9fe4159784f2eefd2f1abb4df6b3685ec1a103e7
+size 273

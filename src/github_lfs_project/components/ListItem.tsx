@@ -1,16 +1,3 @@
-import React from "react";
-import Link from "next/link";
-
-import { User } from "../interfaces";
-
-type Props = {
-  data: User;
-};
-
-const ListItem = ({ data }: Props) => (
-  <Link href="/users/[id]" as={`/users/${data.id}`}>
-    {data.id}:{data.name}
-  </Link>
-);
-
-export default ListItem;
+version https://git-lfs.github.com/spec/v1
+oid sha256:62aba00abd512ff7cc27265521cf63b0f33fc93071de0f596f6f325fa5712be4
+size 288
